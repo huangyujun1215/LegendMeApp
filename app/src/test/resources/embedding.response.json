@@ -1,0 +1,14 @@
+{
+  "model": "configured-embedding-model",
+  "dimensions": 3,
+  "embeddings": [
+    {
+      "id": "EVENT:event-linzhou-reunion",
+      "vector": [0.12, -0.34, 0.56]
+    }
+  ],
+  "usage": {
+    "promptTokens": 18,
+    "totalTokens": 18
+  }
+}

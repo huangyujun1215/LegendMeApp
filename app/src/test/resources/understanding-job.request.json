@@ -1,0 +1,13 @@
+{
+  "idempotencyKey": "session-linzhou-001-v1",
+  "sourceSessionId": "session-linzhou-001",
+  "messages": [
+    {
+      "id": "message-linzhou-001",
+      "content": "今天在望京碰见了大学同学小王。我们聊起十年前一起创业失败的事。以前我觉得是他不够坚持，现在我反而觉得自己当时太固执。",
+      "createdAt": "2026-09-25T02:00:00.000Z"
+    }
+  ],
+  "currentKnowledge": {},
+  "modelId": "glm-5.3"
+}

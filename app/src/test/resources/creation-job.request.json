@@ -1,0 +1,25 @@
+{
+  "idempotencyKey": "work-linzhou-reunion-v1",
+  "projectId": "work-linzhou-reunion",
+  "intent": "把创业失败和多年后重逢写成一个克制、具有余韵的短篇小说。",
+  "corpusVersion": "snapshot-2026-09-25T02:30:00Z",
+  "corpus": [
+    {
+      "id": "record-001",
+      "kind": "RECORD",
+      "content": "大学时，我和王川决定一起做一个帮助同学交换旧书的网站。",
+      "occurredAt": "2016-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "record-002",
+      "kind": "RECORD",
+      "content": "今天在望京碰见了小王。我第一次承认，当年也许是我太固执。",
+      "occurredAt": "2026-09-25T02:00:00.000Z"
+    }
+  ],
+  "targetLength": {
+    "min": 3000,
+    "max": 5000
+  },
+  "modelId": "glm-5.3"
+}

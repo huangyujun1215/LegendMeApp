@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "1.0",
+  "summary": "林舟与大学同学小王在望京重逢，并重新理解十年前创业失败的责任。",
+  "people": [
+    {
+      "temporaryId": "person-xiaowang",
+      "displayName": "小王",
+      "aliases": [],
+      "description": "用户的大学同学和曾经的创业伙伴",
+      "evidence": {
+        "sourceMessageIds": ["message-linzhou-001"],
+        "confidence": 0.92,
+        "provenance": "USER_FACT"
+      }
+    }
+  ],
+  "events": [
+    {
+      "temporaryId": "event-reunion",
+      "title": "在望京与小王重逢",
+      "description": "两人谈起十年前共同创业失败的经历。",
+      "occurredAtText": "今天",
+      "occurredAtStart": "2026-09-25T00:00:00.000Z",
+      "occurredAtEnd": "2026-09-25T23:59:59.999Z",
+      "participantTemporaryIds": ["person-xiaowang"],
+      "placeName": "望京",
+      "themeNames": ["友情", "失败", "反思"],
+      "evidence": {
+        "sourceMessageIds": ["message-linzhou-001"],
+        "confidence": 0.96,
+        "provenance": "USER_FACT"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "subject": "用户",
+      "predicate": "对创业失败的理解",
+      "value": "现在认为自己当时过于固执",
+      "validAtText": "现在",
+      "supersedes": "以前认为小王不够坚持",
+      "evidence": {
+        "sourceMessageIds": ["message-linzhou-001"],
+        "confidence": 0.94,
+        "provenance": "USER_FACT"
+      }
+    }
+  ],
+  "relations": [],
+  "themes": ["友情", "失败", "自我反思"],
+  "pendingConfirmations": [
+    {
+      "kind": "IDENTITY",
+      "question": "这里的小王是否是以前记录中的王川？",
+      "subjectTemporaryId": "person-xiaowang",
+      "candidateIds": ["person-wangchuan"],
+      "evidence": {
+        "sourceMessageIds": ["message-linzhou-001"],
+        "confidence": 0.54,
+        "provenance": "AGENT_INFERENCE"
+      }
+    }
+  ],
+  "searchText": "望京 小王 大学同学 创业失败 十年前 固执 友情 反思"
+}
