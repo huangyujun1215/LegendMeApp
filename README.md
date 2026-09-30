@@ -4,7 +4,12 @@ LegendMe is a local-first Android prototype for recording life experiences, buil
 knowledge base, and turning selected material into literary works.
 
 This repository contains only the native Android client. The NestJS/Pi Agent backend is maintained
-separately and must be running for understanding, companion, embedding, and literary-writing jobs.
+separately in [LegendMeServer](https://github.com/huangyujun1215/LegendMeServer) and must be running
+for understanding, companion, embedding, and literary-writing jobs.
+
+This repository builds and tests independently; no parent workspace or backend checkout is needed.
+The server owns the API contracts. Client fixture snapshots live in `app/src/test/resources/` and
+must be updated explicitly when the wire contract changes.
 
 ## Technology
 
